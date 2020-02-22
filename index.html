@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<head>
+<title> Potato Performance | Justin Hodges | 2015 </title>
+<meta name="description" content="Potato Performance, by Justin Hodges is #15 of a 15 series of weekly solo (online) shows from november 1st of 2019 to march 1st of 2020, curated by MSD, part of the 4th Wrong Biennale">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Faster+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Nova+Mono&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="https://www.veggieprezi.com/wp-content/uploads/2017/09/20170731_214129-555x688.jpg">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<script>
+  // Set the date we're counting down to
+  var countDownDate = new Date("Feb 28, 2020 12:00:00").getTime();
+  
+  // Update the count down every 1 second
+  var x = setInterval(function() {
+  
+    // Get today's date and time
+    var now = new Date().getTime();
+      
+    // Find the distance between now and the count down date
+    var distance = countDownDate - now;
+      
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      
+    // Output the result in an element with id="demo"
+    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+      
+    // If the count down is over, write some text 
+    if (distance < 0) {
+      clearInterval(x);
+      document.getElementById("demo").innerHTML = "Now performing";
+    }
+  }, 1000);
+  </script>
+
+
+<header> 
+  <div>
+      <marquee behavior="alternate" scrollamount="7">  <h1>28 / feb - 05 / mar  | Justin Hodges  |  Potato Performance</h1> </marquee>
+    </div>
+
+</header
+
+<body>
+  <div class="fullscreen">
+    <div class="video">
+      <div class="vimeo-wrapper">
+        <iframe src="https://player.vimeo.com/video/74453029?autoplay=1&loop=1&title=0&byline=0&portrait=0&controls=0&playsinline=0" width="480" height="320" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </div>
+    </div>
+  </div>
+
+  <a href="https://www.twitch.tv/dancanal/" target="_self">
+  <h2 id="demo"></h2> </a>
+
+  <h3>
+    <p> 
+     📅 *GMT-5   ~   Everyday @ 12M
+        </p>
+</h3>
+
+ 
+
+</body>
+
+
+
+<footer>
+  <div class="row">
+      <a href="http://m-s-d.xyz/" target="_blank">
+        <img src="https://d2w9rnfcy7mm78.cloudfront.net/5350730/original_f6d3816ea6ff3e3884f23a6b515bfdee.png?1572190496?bc=0"
+        alt="msd" height="60px" width="60px" ;="">
+      </a>
+      <a href="https://www.instagram.com/estacionterrena/" target="_blank">
+        <img src="https://d2w9rnfcy7mm78.cloudfront.net/5349386/original_e09bccbefcbf01aacfbeb9e3111d8793.png?1572152866?bc=0"
+        alt="estacionterrena" height="60px" width="60px" ;="">
+      </a>
+      <a href="https://thewrong.org/" target="_blank">
+        <img src="https://d2w9rnfcy7mm78.cloudfront.net/5349466/original_8ae4ef0085484d7286b96e0d66f1b2e3.png?1572156441?bc=0"
+        alt="wrong" height="60px" width="60px" ;="">
+                         </div>
+  </footer>
+
+
+</html>
