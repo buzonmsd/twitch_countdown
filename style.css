@@ -47,6 +47,11 @@ p {
   text-align: left;
   }
 */
+
+p{
+  text-align: left;
+}
+
   h2 {
     /*font-family: 'Anton', monospace;*/
     position: relative;
