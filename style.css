@@ -48,9 +48,6 @@ p {
   }
 */
 
-p{
-  text-align: left;
-}
 
   h2 {
     /*font-family: 'Anton', monospace;*/
@@ -71,7 +68,7 @@ p{
     color: whitesmoke;
     display: inline-block;
     position: absolute;
-    text-align: right;
+    text-align: left;
     bottom: 1%;
     font-family: 'Nova Mono', monospace;
     font-size: 1vw;
